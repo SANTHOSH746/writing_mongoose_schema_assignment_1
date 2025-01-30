@@ -17,7 +17,7 @@ const Schema = new mongo.Schema({
   },
   roles: {
     type: [String],
-    default: ['user'], // Default role
+    default: ['user'], 
   },
   profile: {
     firstName: {
